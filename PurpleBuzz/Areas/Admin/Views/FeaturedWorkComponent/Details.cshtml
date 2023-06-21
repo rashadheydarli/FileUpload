@@ -1,0 +1,39 @@
+﻿@using PurpleBuzz.Areas.Admin.ViewModels.FeaturedWorkComponent
+@model FeaturedWorkComponentDetailsVM
+
+<h1>Description</h1>
+@Html.Raw(@Model.Description)
+
+
+<!-- DataTales Example -->
+<div class="card shadow mb-4">
+
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Photo</th>
+                        <th>Order</th>
+                        <th>Created At</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    @foreach (var photo in Model.Photos)
+                    {
+                        <tr>
+                            <td> <img class="w-25"src ="~/assets/img/@photo.Name"/></td>
+                            <td>@photo.Order.ToString()</td>
+                            <td>@photo.CreatedAt.ToString("dd.MM.yyyy HH:mm")</td>
+                        </tr>
+                    }
+
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+

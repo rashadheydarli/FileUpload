@@ -1,0 +1,55 @@
+﻿
+@using PurpleBuzz.Areas.Admin.ViewModels.TeamMember
+@model TeamMemberListVM
+
+<!-- Begin Page Content -->
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    <h1 class="h3 mb-2 text-gray-800">Team Members</h1>
+
+    <a class="btn btn-primary" asp-action="create" asp-controller="teammember">Create</a>
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Photo</th>
+                            <th>Fullname</th>
+                            <th>Duty</th>
+                            <th>Created Date</th>
+                            <th>Modified Date</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        @foreach (var teamMember in Model.TeamMembers)
+                        {
+                            <tr>
+                                <td>
+                                    <img class="w-25" src="~/assets/img/@teamMember.PhotoName" />
+                                </td>
+                                <td>@teamMember.Name @teamMember.Surname</td>
+                                <td>@teamMember.Duty</td>
+                                <td>@teamMember.CreatedAt.ToString("dd.MM.yyyy HH:mm")</td>
+                                <td>@teamMember.ModifiedAt?.ToString("dd.MM.yyyy HH:mm")</td>
+                                <td>
+                                        <a asp-action="update" asp-controller="teammember" asp-route-id="@teamMember.Id" class="btn btn-primary">Update</a>
+                                        <a onclick="return ConfirmDelete()" asp-action="delete" asp-controller="teammember" asp-route-id="@teamMember.Id" class="btn btn-danger">Delete</a>
+                                        <a asp-action="details" asp-controller="teammember" asp-route-id="@teamMember.Id" class="btn btn-info">Details</a>
+                                </td>
+
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- /.container-fluid -->

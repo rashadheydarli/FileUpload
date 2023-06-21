@@ -1,0 +1,46 @@
+﻿
+@using PurpleBuzz.Areas.Admin.ViewModels.Work
+@model WorkUpdateVM
+    <!-- Begin Page Content -->
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    <h1 class="h3 mb-2 text-gray-800">Update Work</h1>
+
+
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+
+        <div class="card-body">
+
+            <form asp-action="update" asp-controller="work" method="post">
+                <div class="form-group">
+                    <label asp-for="Title"></label>
+                    <input class="form-control" asp-for="Title" />
+                    <span asp-validation-for="Title"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="WorkCategoryId"></label>
+                    <select class="form-control form-select" asp-for="WorkCategoryId" asp-items="Model.WorkCategories">
+                        <option value="">-- Choose --</option>
+                    </select>
+                    <span asp-validation-for="Title"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Description"></label>
+                    <textarea class="form-control" asp-for="Description"></textarea>
+                    <span asp-validation-for="Description"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="PhotoPath"></label>
+                    <input class="form-control" asp-for="PhotoPath" />
+                    <span asp-validation-for="PhotoPath"></span>
+                </div>
+                <button class="btn btn-primary" type="submit">Update </button>
+            </form>
+
+        </div>
+    </div>
+
+</div>
+<!-- /.container-fluid -->

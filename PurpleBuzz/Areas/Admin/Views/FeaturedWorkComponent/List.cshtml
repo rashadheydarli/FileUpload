@@ -1,0 +1,50 @@
+﻿
+@using PurpleBuzz.Areas.Admin.ViewModels.FeaturedWorkComponent
+@model FeaturedWorkComponentListVM
+<!-- Begin Page Content -->
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    <h1 class="h3 mb-2 text-gray-800">Featured Work Component</h1>
+
+    @if(Model.FeaturedWorkComponent is  null)
+    {
+        <a class="btn btn-primary" asp-action="create" asp-controller="featuredworkcomponent">Create</a>
+    }
+    @if (Model.FeaturedWorkComponent is not null)
+    {
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Created Date</th>
+                            <th>Modified Date</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>@Model.FeaturedWorkComponent.Id</td>
+                            <td>@Model.FeaturedWorkComponent.CreatedDate.ToString("dd.MM.yyyy HH:mm")</td>
+                            <td>@Model.FeaturedWorkComponent.ModifiedDate?.ToString("dd.MM.yyyy HH:mm")</td>
+                            <td>
+                                <a asp-action="update" asp-controller="featuredworkcomponent" asp-route-id="@Model.FeaturedWorkComponent.Id" class="btn btn-primary">Update</a>
+                                <a onclick="return ConfirmDelete()" asp-action="delete" asp-controller="featuredworkcomponent" asp-route-id="@Model.FeaturedWorkComponent.Id" class="btn btn-danger">Delete</a>
+                                <a asp-action="details" asp-controller="featuredworkcomponent" asp-route-id="@Model.FeaturedWorkComponent.Id" class="btn btn-info">Details</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+   }
+
+</div>
+<!-- /.container-fluid -->

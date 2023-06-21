@@ -1,0 +1,58 @@
+﻿<Properties StartupConfiguration="{4FAEB788-76B2-4A7D-9175-726340F1893E}|https">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PurpleBuzz" expanded="True">
+            <Node name="PurpleBuzz" expanded="True">
+              <Node name="Areas" expanded="True">
+                <Node name="Admin" expanded="True">
+                  <Node name="Controllers" expanded="True" />
+                  <Node name="ViewModels" expanded="True">
+                    <Node name="FeaturedWorkComponent" expanded="True" />
+                    <Node name="WorkCategory" expanded="True" />
+                  </Node>
+                  <Node name="Views" expanded="True">
+                    <Node name="FeaturedWorkComponent" expanded="True" />
+                    <Node name="Shared" expanded="True" />
+                    <Node name="TeamMember" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="ViewModels" expanded="True">
+                <Node name="About" expanded="True" />
+                <Node name="Home" expanded="True" />
+                <Node name="Work" expanded="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="About" expanded="True" />
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+                <Node name="User" expanded="True" />
+                <Node name="Work" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="assets" expanded="True">
+                  <Node name="js" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.PurpleBuzz PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/rashadheydarli/Desktop/PurpleBuzz_backend/PurpleBuzz/Areas/Admin/Controllers/ServiceComponentController.cs" relfile="PurpleBuzz/Areas/Admin/Controllers/ServiceComponentController.cs" line="23" column="1" />
+      <Breakpoint file="/Users/rashadheydarli/Desktop/PurpleBuzz_backend/PurpleBuzz/Areas/Admin/Views/FeaturedWorkComponent/List.cshtml" relfile="PurpleBuzz/Areas/Admin/Views/FeaturedWorkComponent/List.cshtml" line="11" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

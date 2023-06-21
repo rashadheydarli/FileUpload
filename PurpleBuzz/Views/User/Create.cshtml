@@ -1,0 +1,27 @@
+﻿@{
+    Layout = null;
+}
+
+@using PurpleBuzz.ViewModels.User;
+@model UserCreateVM
+
+<head>
+    <link href="~/assets/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body> 
+    <form asp-action="create" asp-controller="User" method="post">
+        <div class="form-group">
+            <label asp-for="Name"></label>
+            <input asp-for="Name" type="text" class="form-control" aria-describedby="emailHelp" placeholder="Enter Name">
+            <span class="text-danger" asp-validation-for="Name"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Surname"></label>
+            <input asp-for="Surname" type="text" class="form-control" aria-describedby="emailHelp" placeholder="Enter Surname">
+            <span class="text-danger" asp-validation-for="Surname"></span>
+        </div>
+        <button type="submit" class="btn btn-primary mt-2">Create</button>
+    </form>
+
+        <script src="~/assets/js/bootstrap.bundle.min.js"></script>
+</body>

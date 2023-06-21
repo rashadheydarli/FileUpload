@@ -1,0 +1,36 @@
+﻿
+
+
+@using PurpleBuzz.Areas.Admin.ViewModels.FeaturedWorkComponent
+@model FeaturedWorkComponentUpdatePhotoVM
+    <!-- Begin Page Content -->
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    <h1 class="h3 mb-2 text-gray-800">Update Featured Work Component Photo</h1>
+
+
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+
+        <div class="card-body">
+
+            <form enctype="multipart/form-data" asp-action="updatephoto" asp-controller="featuredworkcomponent" method="post">
+                <div class="form-group">
+                    <label asp-for="Order"></label>
+                    <input class="form-control" asp-for="Order"></input>
+                    <span asp-validation-for="Order"></span>
+                </div>
+                <button class="btn btn-primary" type="submit">Update</button>
+               
+            </form>
+
+        </div>
+    </div>
+
+</div>
+
+
+
+
+

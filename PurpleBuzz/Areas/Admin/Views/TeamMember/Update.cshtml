@@ -1,0 +1,51 @@
+﻿@using PurpleBuzz.Areas.Admin.ViewModels.TeamMember
+@model TeamMemberUpdateVM
+    <!-- Begin Page Content -->
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    <h1 class="h3 mb-2 text-gray-800">Update Team Member</h1>
+
+
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+
+        <div class="card-body">
+
+            <form enctype="multipart/form-data" asp-action="update" asp-controller="teammember" method="post">
+                <div class="form-group">
+                    <label asp-for="Name"></label>
+                    <input class="form-control" asp-for="Name" />
+                    <span asp-validation-for="Name"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Surname"></label>
+                    <input class="form-control" asp-for="Surname" />
+                    <span asp-validation-for="Surname"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Duty"></label>
+                    <input class="form-control" asp-for="Duty" />
+                    <span asp-validation-for="Duty"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="About"></label>
+                    <textarea class="form-control" asp-for="About"></textarea>
+                    <span asp-validation-for="About"></span>
+                </div>
+                <div class="form-group">
+                    <img class="w-25" src="~/assets/img/@Model.PhotoName"/>
+                    <div class="mb-3">
+                        <label asp-for="Photo" class="form-label">--Choose--</label>
+                        <input type="file" class="form-control" asp-for="Photo">
+                    </div>
+                    <span asp-validation-for="Photo"></span>
+                </div>
+                <button class="btn btn-primary" type="submit">Create</button>
+            </form>
+
+        </div>
+    </div>
+
+</div>
+<!-- /.container-fluid -->

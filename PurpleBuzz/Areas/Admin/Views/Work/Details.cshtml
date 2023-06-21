@@ -1,0 +1,18 @@
+﻿
+@using PurpleBuzz.Areas.Admin.ViewModels.Work
+@model WorkDetailsVM
+
+<a class="btn btn-primary" asp-action="index" asp-controller="work">Return to list</a>
+<h1>Title</h1>
+<p>@Model.Title</p>
+
+<h1>Category</h1>
+<p>@Model.WorkCategory.Name</p>
+
+<h1>Created Date</h1>
+<p>@Model.CreatedDate.ToString("dd.MM.yyyy HH:mm")</p>
+
+<h1>Modified Date</h1>
+<p>@Model.ModifiedDate?.ToString("dd.MM.yyyy HH:mm")</p>
+
+
