@@ -18,12 +18,10 @@ namespace PurpleBuzz.Controllers
         {
             var aboutIntroComponent = _context.AboutIntroComponents.FirstOrDefault(aic => !aic.IsDeleted);
             var whyYouChoose = _context.WhyYouChooses.FirstOrDefault(wyc => !wyc.IsDeleted);
-            var ours = _context.Ours.Where(o => !o.IsDeleted).ToList();
             var model = new AboutIndexVM
             {
                 WhyYouChoose = whyYouChoose,
                 AboutIntroComponent = aboutIntroComponent,
-                Ours = ours,
                 TeamMembers = _context.TeamMembers.ToList()
             };
 

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wdMWy67U6DuvVTMcATOR+EaKUuJ/rk3UkdaES6Uu3SI=",
+  "Hash": "GE1a7YcH/+6N1ZZwfrK3ilHscDsfIqkzatC4yg8pyL0=",
   "Source": "PurpleBuzz",
   "BasePath": "_content/PurpleBuzz",
   "Mode": "Default",
@@ -31518,6 +31518,23 @@
       "OriginalItemSpec": "wwwroot/assets/img/7f24cd6f-403c-4fe5-91bc-8b7876b8f99f_feature-work-4.jpg"
     },
     {
+      "Identity": "/Users/rashadheydarli/Desktop/PurpleBuzz_backend/PurpleBuzz/wwwroot/assets/img/8390063d-bbb9-47c4-be96-38345d9b9db2_feature-work-2-large.jpg",
+      "SourceId": "PurpleBuzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/rashadheydarli/Desktop/PurpleBuzz_backend/PurpleBuzz/wwwroot/",
+      "BasePath": "_content/PurpleBuzz",
+      "RelativePath": "assets/img/8390063d-bbb9-47c4-be96-38345d9b9db2_feature-work-2-large.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/img/8390063d-bbb9-47c4-be96-38345d9b9db2_feature-work-2-large.jpg"
+    },
+    {
       "Identity": "/Users/rashadheydarli/Desktop/PurpleBuzz_backend/PurpleBuzz/wwwroot/assets/img/85934c5b-2181-461c-a119-a08623c7cdbc_feature-work-1.jpg",
       "SourceId": "PurpleBuzz",
       "SourceType": "Discovered",
@@ -31535,6 +31552,40 @@
       "OriginalItemSpec": "wwwroot/assets/img/85934c5b-2181-461c-a119-a08623c7cdbc_feature-work-1.jpg"
     },
     {
+      "Identity": "/Users/rashadheydarli/Desktop/PurpleBuzz_backend/PurpleBuzz/wwwroot/assets/img/8f559a7d-a051-4240-8c77-83e17d648e27_feature-work-3-large.jpg",
+      "SourceId": "PurpleBuzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/rashadheydarli/Desktop/PurpleBuzz_backend/PurpleBuzz/wwwroot/",
+      "BasePath": "_content/PurpleBuzz",
+      "RelativePath": "assets/img/8f559a7d-a051-4240-8c77-83e17d648e27_feature-work-3-large.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/img/8f559a7d-a051-4240-8c77-83e17d648e27_feature-work-3-large.jpg"
+    },
+    {
+      "Identity": "/Users/rashadheydarli/Desktop/PurpleBuzz_backend/PurpleBuzz/wwwroot/assets/img/935de4d6-7b04-4d40-8307-9fd8676b23d4_feature-work-1-large.jpg",
+      "SourceId": "PurpleBuzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/rashadheydarli/Desktop/PurpleBuzz_backend/PurpleBuzz/wwwroot/",
+      "BasePath": "_content/PurpleBuzz",
+      "RelativePath": "assets/img/935de4d6-7b04-4d40-8307-9fd8676b23d4_feature-work-1-large.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/img/935de4d6-7b04-4d40-8307-9fd8676b23d4_feature-work-1-large.jpg"
+    },
+    {
       "Identity": "/Users/rashadheydarli/Desktop/PurpleBuzz_backend/PurpleBuzz/wwwroot/assets/img/apple-icon.png",
       "SourceId": "PurpleBuzz",
       "SourceType": "Discovered",
@@ -31550,6 +31601,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/img/apple-icon.png"
+    },
+    {
+      "Identity": "/Users/rashadheydarli/Desktop/PurpleBuzz_backend/PurpleBuzz/wwwroot/assets/img/b18a5755-52ba-4687-8b40-bbb515f145d5_feature-work-4-large.jpg",
+      "SourceId": "PurpleBuzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/rashadheydarli/Desktop/PurpleBuzz_backend/PurpleBuzz/wwwroot/",
+      "BasePath": "_content/PurpleBuzz",
+      "RelativePath": "assets/img/b18a5755-52ba-4687-8b40-bbb515f145d5_feature-work-4-large.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/img/b18a5755-52ba-4687-8b40-bbb515f145d5_feature-work-4-large.jpg"
     },
     {
       "Identity": "/Users/rashadheydarli/Desktop/PurpleBuzz_backend/PurpleBuzz/wwwroot/assets/img/banner-bg-01.jpg",

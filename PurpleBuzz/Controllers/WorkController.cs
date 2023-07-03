@@ -16,16 +16,14 @@ namespace PurpleBuzz.Controllers
 
         public IActionResult Index()
         {
-           
-
             var model = new WorkIndexVM
             {
                 WorkCategories = _context.WorkCategories
                                         .Where(wc => !wc.IsDeleted)
                                         .Include(x => x.Works.Where(w => !w.IsDeleted))
                                         .ToList(),
-                FeaturedWorkComponent = _context.FeaturedWorkComponent.Include(fwc => fwc.Photos.OrderBy(p=>p.Order)).FirstOrDefault()
-        };
+                FeaturedWorkComponent = _context.FeaturedWorkComponent.Include(fwc => fwc.Photos.OrderBy(p => p.Order)).FirstOrDefault()
+             };
 
             return View(model);
         }

@@ -56,6 +56,10 @@
 </section>
 <!-- End Our Work -->
 
+@await Component.InvokeAsync("Our")
+
+<!-- End Aim -->
+
 @if (Model.FeaturedWorkComponent is not null)
 {
     <!-- Start Feature Work -->
@@ -80,8 +84,8 @@
     </section>
     <!-- End Feature Work -->
 }
-    @section Scripts{
-        <script src="~/assets/js/fslightbox.js"></script>
+@section Scripts{
+    <script src="~/assets/js/fslightbox.js"></script>
 
-    }
+}
 

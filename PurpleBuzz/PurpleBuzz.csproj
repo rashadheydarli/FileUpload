@@ -39,6 +39,8 @@
     <None Remove="Utilities\File\" />
     <None Remove="Areas\Admin\Views\FeaturedWorkComponent\" />
     <None Remove="Areas\Admin\ViewModels\FeaturedWorkComponent\" />
+    <None Remove="ViewComponents\" />
+    <None Remove="Views\Shared\Components\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Areas\" />
@@ -59,5 +61,7 @@
     <Folder Include="Utilities\File\" />
     <Folder Include="Areas\Admin\Views\FeaturedWorkComponent\" />
     <Folder Include="Areas\Admin\ViewModels\FeaturedWorkComponent\" />
+    <Folder Include="ViewComponents\" />
+    <Folder Include="Views\Shared\Components\" />
   </ItemGroup>
 </Project>

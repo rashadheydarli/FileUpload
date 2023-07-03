@@ -6,5 +6,6 @@ namespace PurpleBuzz.ViewModels.Work
     {
         public List<Models.WorkCategory> WorkCategories { get; set; }
         public FeaturedWorkComponent FeaturedWorkComponent { get; set; }
+        public List<Models.Our> Ours { get; set; }
     }
 }
